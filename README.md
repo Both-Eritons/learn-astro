@@ -1,5 +1,5 @@
 # Astro Starter Kit: Basics
-
+# O projeto era pra aprender astro mas não vai ser uma boa opção então parei
 ```
 npm create astro@latest -- --template basics
 ```

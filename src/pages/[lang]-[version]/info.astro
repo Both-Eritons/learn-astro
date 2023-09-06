@@ -1,0 +1,15 @@
+
+---
+export function getStaticPaths() {
+	return [
+		{params: {lang: "pt", version: "v1"}},
+	]
+}
+
+const { lang, version } = Astro.params;
+
+---
+
+<div>
+	your lang is: {lang} and the version is: {version}
+</div>

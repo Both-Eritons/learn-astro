@@ -1,0 +1,13 @@
+---
+export function getStaticPaths() {
+	return [
+		{params: {caminho: "eriton/eh/foda"}},
+		{params: {caminho: "quatro"}},
+		{params: {caminho: undefined}},
+	]
+}
+
+const { caminho } = Astro.params
+---
+
+<h1>rota: {caminho}</h1>
